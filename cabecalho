@@ -834,7 +834,7 @@ echo -e "$puertos"|column -s "|"  -t
 } || echo -e "     ⚠️ PUERTOS SSH TRUNCADO POR DROPBEAR ⚠️   \n		Coloca : sudo -i \n	    Ve al menu 7, opcion 7 " 
 local PIDGEN=$(echo -e "${_ps}"| grep "BotGen.sh" | grep -v grep |awk '{print $1}')
 [[ ! -z $PIDGEN ]] && {
-local botG="\033[1;34m ${pPIniT} \033[1;37m BotGen Telegram 🤖 : \033[1;31m ⚡ ACTIVO ⚡"
+local botG="\033[1;34m ${pPIniT} \033[1;37m DrowKBot : \033[1;31m ⚡ ACTIVO ⚡"
 msg -bar
 echo -e "$botG"
 unset svcs porta puertos i x
@@ -842,7 +842,7 @@ unset svcs porta puertos i x
 }
 
 #declare -A tnUP=' ⚠️ ChumoGH ADM ⚠️ NECESITA ACTUALIZARSE!'
-declare -A exitokey="\033[3;49;32m$(cat < /bin/ejecutar/exito)©"
+declare -A exitokey="$(echo "【 ᎠꭱꮻꮃᏦᏀᏴꮻꭲ")"
 declare -A cpu_core=$(cat /proc/cpuinfo | grep processor | wc -l)
 declare -A cpu_model=$(uname -m)
 [[ $cpu_model = "aarch64" ]] && cpu_model=" ARM64 Pro" 

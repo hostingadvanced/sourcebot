@@ -1,7 +1,7 @@
 #!/bin/bash
 start_menu () {
 source /etc/adm-lite/cabecalho
-echo -e "${cor[2]} ⌐╦╦═─ ${cor[5]} MENÚ HERRAMIENTAS By $(cat /etc/adm-lite/menu_credito)"
+echo -e "${cor[2]} ⌐╦╦═─ ${cor[5]} MENÚ HERRAMIENTAS By ✧ | ᴅʀᴏᴡᴋɪᴅ | ✧"
 msg -bar 
 echo -e "\033[0;35m [\033[0;36m1\033[0;35m]\033[0;31m ➮${cor[3]} Bloqueo Torrent y Palabras Claves \033[0;33m( #BETA )"
 echo -e "\033[0;35m [\033[0;36m2\033[0;35m]\033[0;31m ➮${cor[3]} FIX PassWD Vultr"
